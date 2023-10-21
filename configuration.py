@@ -15,7 +15,7 @@ class Configuration:
         """
         self._config: dict = settings.CONFIGURATIONS
 
-    def get(self, key):
+    def get_config(self, key):
         """
         Получить значение по ключу
         """
